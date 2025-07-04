@@ -24,12 +24,14 @@ Setup
  python3 -m venv venv
  
  source venv/bin/activate
+ 
 
 2.Install dependencies
 
   pip install streamlit
   
   pip install streamlit langchain-huggingface python-dotenv
+  
 
 3.Set your Hugging Face API token
 
@@ -38,10 +40,12 @@ Setup
   Create a .env file in the project root:
 
   HUGGINGFACEHUB_API_TOKEN = your_huggingface_token_here
+  
 
 4.Add your prompt template
 
   Place your template.json file in the project directory.
+  
 
 5.Run the app
 
