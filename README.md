@@ -17,13 +17,18 @@ Developed it by using Hugging Face models (e.g., Llama, Zephyr)
 
 Simple and interactive Streamlit interface
 
-1.Create and activate a virtual environment (recommended)
+Setup
+
+1.Create and activate a virtstreamlit run promptdrop.pyual environment (recommended)
 
  python3 -m venv venv
+ 
  source venv/bin/activate
 
 2.Install dependencies
+
   pip install streamlit
+  
   pip install streamlit langchain-huggingface python-dotenv
 
 3.Set your Hugging Face API token
@@ -35,7 +40,9 @@ Simple and interactive Streamlit interface
   HUGGINGFACEHUB_API_TOKEN = your_huggingface_token_here
 
 4.Add your prompt template
+
   Place your template.json file in the project directory.
 
 5.Run the app
+
   streamlit run promptdrop.py
